@@ -25,9 +25,9 @@ const AddUser = () => {
     e.preventDefault();
     setLoading(true);
     setMessage("");
-//hii
+
     try {
-      
+     //hii 
 
       await axios.post("http://localhost:5000/users", user);
       setMessage("✅ User added successfully!");
