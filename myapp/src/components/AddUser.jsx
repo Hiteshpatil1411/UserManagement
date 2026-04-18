@@ -27,7 +27,7 @@ const AddUser = () => {
     setMessage("");
 
     try {
-     //hii 
+     
 
       await axios.post("http://localhost:5000/users", user);
       setMessage("✅ User added successfully!");
